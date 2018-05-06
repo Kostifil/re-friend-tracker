@@ -36,6 +36,13 @@ export class GuiModel {
                             "width": 2
                         },
                         {
+                            "id": "nickname",
+                            "type": "text",
+                            "name": "Nickname",
+                            "width": 2,
+                            "required": true
+                        },
+                        {
                             "id": "birthdate",
                             "type": "date",
                             "name": "Birthday",
