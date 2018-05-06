@@ -131,6 +131,7 @@ export class GuiModel {
                     "id": "mainmenu",
                     "name": "MainMenu",
                     "elementList": [
+                        
                         {
                         "type": "button",
                         "name": "Groups",
@@ -197,6 +198,25 @@ export class GuiModel {
                                 "form": "LocationForm"
                             }
                         },
+                        {
+                            "id": "groupspage",
+                            "elementList": [
+                            {
+                            "type": "backbutton",
+                            },
+                            {
+                            "type": "newButton",
+                            "name": "NewGroup",
+                            "icon": "fa-weixin",
+                            "color": "green",
+                            "form": {
+                            "form": "GroupForm"
+                            }
+                            }
+                            ]
+                            }
+                        
+                        
                         {
                             "type": "list",
                             "icon": "fa-home",
