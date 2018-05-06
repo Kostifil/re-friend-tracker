@@ -132,6 +132,13 @@ export class GuiModel {
                     "name": "MainMenu",
                     "elementList": [
                         {
+                        "type": "button",
+                        "name": "Groups",
+                        "icon": "fa-weixin",
+                        "color": "wisteria",
+                        "page": "groupspage",
+                        },
+                        {
                             "type": "button",
                             "name": "Friends",
                             "icon": "fa-user",
