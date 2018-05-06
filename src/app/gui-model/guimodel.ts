@@ -28,9 +28,9 @@ export class GuiModel {
                             "required": true
                         },
                         {
-                            "id": "NickName",
+                            "id": "nickName",
                             "type": "text",
-                            "name": "NickName",
+                            "name": "nickName",
                             "width": 2,
                             "required": true
                         },
